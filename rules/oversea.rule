@@ -1,0 +1,4 @@
+# -------- 海外穿墙兜底 --------
+GEOIP,cn,DIRECT
+GEOIP,CN,DIRECT
+FINAL,PROXY
