@@ -1,0 +1,29 @@
+# ----------------- 通用广告 -----------------
+DOMAIN-SUFFIX,adservice.google.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,adsafeprotected.com,REJECT
+DOMAIN-SUFFIX,ads.pubmatic.com,REJECT
+DOMAIN-SUFFIX,adnxs.com,REJECT
+DOMAIN-SUFFIX,admob.com,REJECT
+DOMAIN-SUFFIX,adnxs.com,REJECT
+
+# ----------------- 视频 / 网页广告 -----------------
+DOMAIN-SUFFIX,youtube.com,REJECT
+DOMAIN-SUFFIX,youtube-nocookie.com,REJECT
+DOMAIN-SUFFIX,ytimg.com,REJECT
+DOMAIN-SUFFIX,vids.io,REJECT
+
+# ----------------- 社交媒体广告 -----------------
+DOMAIN-SUFFIX,facebook.com,REJECT
+DOMAIN-SUFFIX,fbcdn.net,REJECT
+DOMAIN-SUFFIX,instagram.com,REJECT
+DOMAIN-SUFFIX,tiktokcdn.com,REJECT
+
+# ----------------- 移动 App 广告 SDK -----------------
+DOMAIN-SUFFIX,mopub.com,REJECT
+DOMAIN-SUFFIX,applovin.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN-SUFFIX,chartboost.com,REJECT
+DOMAIN-SUFFIX,adcolony.com,REJECT
+DOMAIN-SUFFIX,vungle.com,REJECT
