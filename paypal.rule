@@ -1,0 +1,14 @@
+DOMAIN-SUFFIX,paypal.com,PROXY
+DOMAIN-SUFFIX,paypalobjects.com,PROXY
+DOMAIN-SUFFIX,paypal.me,PROXY
+DOMAIN-SUFFIX,pypl.com,PROXY
+DOMAIN-SUFFIX,api.paypal.com,PROXY
+DOMAIN-SUFFIX,api-m.paypal.com,PROXY
+DOMAIN-SUFFIX,notify.paypal.com,PROXY
+DOMAIN-SUFFIX,checkout.paypal.com,PROXY
+DOMAIN-SUFFIX,braintreegateway.com,PROXY
+DOMAIN-SUFFIX,braintree-api.com,PROXY
+DOMAIN-SUFFIX,qualtrics.com,PROXY
+DOMAIN-SUFFIX,akamaihd.net,PROXY
+DOMAIN-KEYWORD,paypal,PROXY
+DOMAIN-KEYWORD,pypl,PROXY
