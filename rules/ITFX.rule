@@ -1,0 +1,23 @@
+# Instagram
+DOMAIN-SUFFIX,instagram.com,PROXY
+DOMAIN-SUFFIX,cdninstagram.com,PROXY
+DOMAIN-SUFFIX,fbcdn.net,PROXY
+
+# TikTok / Douyin International
+DOMAIN-SUFFIX,tiktok.com,PROXY
+DOMAIN-SUFFIX,muscdn.com,PROXY
+DOMAIN-SUFFIX,byteoversea.com,PROXY
+DOMAIN-SUFFIX,snssdk.com,PROXY
+
+# Facebook
+DOMAIN-SUFFIX,facebook.com,PROXY
+DOMAIN-SUFFIX,fb.com,PROXY
+DOMAIN-SUFFIX,fbcdn.net,PROXY
+DOMAIN-SUFFIX,fbcdn.com,PROXY
+DOMAIN-SUFFIX,fbsbx.com,PROXY
+
+# X (Twitter)
+DOMAIN-SUFFIX,twitter.com,PROXY
+DOMAIN-SUFFIX,t.co,PROXY
+DOMAIN-SUFFIX,twimg.com,PROXY
+DOMAIN-SUFFIX,twvideo.net,PROXY
