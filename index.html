@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loon 规则订阅中心</title>
+  <style>
+    body { font-family: -apple-system, Helvetica, Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+    h1 { text-align: center; }
+    .category { margin-top: 30px; }
+    .rule-button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      background: #007AFF;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    .rule-button:hover { background: #005BBB; }
+    .note { font-size: 14px; color: #555; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>📡 Loon 规则订阅中心</h1>
+
+  <div class="category">
+    <h2>🤖 AI 规则</h2>
+    <a class="rule-button" href="loon://add?url=https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/AI.rule&group=AI&name=AI规则">📥 添加 AI 规则到 Loon</a>
+  </div>
+
+  <div class="category">
+    <h2>🇨🇳 国内直连规则</h2>
+    <a class="rule-button" href="loon://add?url=https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/CN.rule&group=CN&name=CN规则">📥 添加 CN 规则到 Loon</a>
+  </div>
+
+  <div class="category">
+    <h2>💹 海外证券 / IB 规则</h2>
+    <a class="rule-button" href="loon://add?url=https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ibank.rule&group=Ibank&name=Ibank规则">📥 添加 Ibank 规则到 Loon</a>
+  </div>
+
+  <div class="category">
+    <h2>📱 社交媒体规则</h2>
+    <a class="rule-button" href="loon://add?url=https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ins-tok-face-X.rule&group=Ins-Tok-Face-X&name=Ins-Tok-Face-X规则">📥 添加 Ins-Tok-Face-X 规则到 Loon</a>
+  </div>
+
+  <div class="category">
+    <h2>🍎 Apple 系统服务规则</h2>
+    <a class="rule-button" href="loon://add?url=https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/apple.rule&group=Apple&name=Apple规则">📥 添加 Apple 规则到 Loon</a>
+  </div>
+
+  <div class="category">
+    <h2>💳 PayPal 规则</h2>
+    <a class="rule-button" href="loon://add?url=https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/paypal.rule&group=PayPal&name=PayPal规则">📥 添加 PayPal 规则到 Loon</a>
+  </div>
+
+  <div class="note">
+    ⚠️ 注意事项：<br>
+    1. 请确保已在设备安装 Loon 并允许 URL Scheme 调用。<br>
+    2. 策略组名称必须与 Loon 中已创建的策略组一致。<br>
+    3. 如果点击无反应，请使用 Safari 浏览器打开本页面。
+  </div>
+
+</body>
+</html>
