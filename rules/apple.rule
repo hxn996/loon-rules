@@ -1,0 +1,14 @@
+# App Store / iTunes
+DOMAIN-SUFFIX,apple.com,PROXY
+DOMAIN-SUFFIX,itunes.apple.com,PROXY
+DOMAIN-SUFFIX,apps.apple.com,PROXY
+
+# iCloud / iCloud Drive / 云服务
+DOMAIN-SUFFIX,icloud.com,PROXY
+DOMAIN-SUFFIX,me.com,PROXY
+DOMAIN-SUFFIX,icloud-content.com,PROXY
+
+# Apple Music / Apple TV / Podcast
+DOMAIN-SUFFIX,music.apple.com,PROXY
+DOMAIN-SUFFIX,tv.apple.com,PROXY
+DOMAIN-SUFFIX,podcast.apple.com,PROXY
