@@ -14,9 +14,7 @@ DOMAIN-SUFFIX,ytimg.com,REJECT
 DOMAIN-SUFFIX,vids.io,REJECT
 
 # ----------------- 社交媒体广告 -----------------
-DOMAIN-SUFFIX,facebook.com,REJECT
 DOMAIN-SUFFIX,fbcdn.net,REJECT
-DOMAIN-SUFFIX,instagram.com,REJECT
 DOMAIN-SUFFIX,tiktokcdn.com,REJECT
 
 # ----------------- 移动 App 广告 SDK -----------------
