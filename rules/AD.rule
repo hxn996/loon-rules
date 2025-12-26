@@ -9,7 +9,6 @@ DOMAIN-SUFFIX,admob.com,REJECT
 DOMAIN-SUFFIX,adnxs.com,REJECT
 
 # ----------------- 视频 / 网页广告 -----------------
-DOMAIN-SUFFIX,youtube.com,REJECT
 DOMAIN-SUFFIX,youtube-nocookie.com,REJECT
 DOMAIN-SUFFIX,ytimg.com,REJECT
 DOMAIN-SUFFIX,vids.io,REJECT
