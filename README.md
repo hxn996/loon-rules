@@ -19,3 +19,6 @@
 [订阅 PayPal 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/paypal.rule)
 ## AD 规则
 [订阅 AD 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/AD.rule)
+
+## eBay 规则
+[订阅 AD 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/eBay.rule)
