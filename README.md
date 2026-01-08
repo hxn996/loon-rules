@@ -27,4 +27,4 @@
 https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/shadowkets.rule
 
 ## Shadoworcket 配置
-(https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/shadowrockets.rule)
+[订阅 小火箭 配置规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/shadowrockets.rule)
