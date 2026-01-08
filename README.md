@@ -22,3 +22,6 @@
 
 ## eBay / 虚拟号 规则
 [订阅 eBay 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/eBay.rule)
+
+小火箭
+https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/shadowkets.rule
