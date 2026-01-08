@@ -25,3 +25,4 @@
 
 ## Shadoworcket 配置
 [订阅 小火箭 配置规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/shadowrockets.rule)
+[模块](https://github.com/hxn996/loon-rules/blob/main/module/self.sgmodule)
