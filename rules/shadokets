@@ -1,0 +1,58 @@
+# ===============================
+# Shadowrocket Universal Config
+# Mode: Rule
+# ===============================
+
+[General]
+loglevel = notify
+dns-server = 1.1.1.1,8.8.8.8
+ipv6 = false
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local
+
+# ===============================
+# Proxy（示例）
+# 👉 导入后把这里换成你自己的节点
+# ===============================
+
+[Proxy]
+# 示例 SS（请替换）
+SS-Example = ss, x.x.x.x, 8388, method=aes-128-gcm, password=yourpassword, udp-relay=true
+
+# 示例 Trojan（可删）
+Trojan-Example = trojan, x.x.x.x, 443, password=yourpassword, sni=example.com, udp-relay=true
+
+# ===============================
+# Proxy Group
+# ===============================
+
+[Proxy Group]
+PROXY = select, SS-Example, Trojan-Example, DIRECT
+
+# ===============================
+# Rules
+# ===============================
+
+[Rule]
+# --- 国内直连 ---
+GEOIP,CN,DIRECT
+
+# --- AI / ChatGPT ---
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+
+# --- 常用国外服务 ---
+DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,cloudflare.com,PROXY
+
+# --- 社交 ---
+DOMAIN-SUFFIX,instagram.com,PROXY
+DOMAIN-SUFFIX,facebook.com,PROXY
+DOMAIN-SUFFIX,twitter.com,PROXY
+DOMAIN-SUFFIX,x.com,PROXY
+DOMAIN-SUFFIX,tiktok.com,PROXY
+
+# --- 兜底 ---
+FINAL,PROXY
