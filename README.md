@@ -25,3 +25,6 @@
 
 小火箭
 https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/shadowkets.rule
+
+## Shadoworcket 配置
+(https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/shadowrockets.rule)
