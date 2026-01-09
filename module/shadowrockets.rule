@@ -1,4 +1,4 @@
-# Shadowrocket: 2026-01-08 18:53:42
+# Shadowrocket: 2026-01-09 22:43:32
 [General]
 # Shadowrocket 快速使用方法：
 # 1、首页 > 添加节点。
@@ -153,11 +153,11 @@ update-url = https://lowertop.github.io/Shadowrocket/lazy_group.conf
 
 [Proxy Group]
 IP = select,policy-select-name=US-IP,policy-regex-filter=(?i)(IP)
-AI = select,PROXY,IP,HK,TW,JP,SG,KR,US
-eBay = select,IP
-PayPal = select,DIRECT,PROXY,HK,TW,JP,SG,KR,US,LOCAL-SERVERS,policy-select-name=LOCAL-SERVERS
-insfacXtok = select,PROXY,IP,HK,TW,KR,US,JP,SG
-Apple = select,DIRECT,PROXY,HK,TW,JP,SG,KR,US,LOCAL-SERVERS
+AI = select,PROXY,IP,HK,TW,JP,SG,KR,US,policy-select-name=IP
+PayBay = select,IP,policy-select-name=IP
+VOIP = select,IP,DIRECT,PROXY,HK,TW,JP,SG,KR,US,policy-select-name=IP
+insfacXtok = select,PROXY,IP,HK,TW,KR,US,JP,SG,policy-select-name=IP
+Apple = select,DIRECT,PROXY,HK,TW,JP,SG,KR,US,LOCAL-SERVERS,policy-select-name=TW
 Ibank = select,DIRECT,policy-select-name=DIRECT
 AD = select,REJECT
 US = url-test,policy-select-name=GLADOS-US-01-2,interval=600,tolerance=0,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=US|USA|America|america|United States|美国|凤凰城|洛杉矶|西雅图|芝加哥|纽约|沪美|美
@@ -199,11 +199,12 @@ KR = url-test,interval=600,tolerance=0,timeout=5,url=http://www.gstatic.com/gene
 # 名称 = 类型(如select,url-test,fallback,load-balance,random),订阅名称(多个订阅时,用逗号分隔),use=true,policy-regex-filter=正则式或关键词筛选(省略该参数时,表示匹配对应订阅的全部节点),interval=测试周期,timeout=超时时间,tolerance=公差,policy-select-name=指定选择的节点备注名称,select=默认策略(0表示第一个策略,1表示第二个策略,2表示第三个策略……),url=测试地址
 
 [Rule]
+GEOIP,CN,DIRECT
 RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/AD.rule,AD
 RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ibank.rule,IBANK
 RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/AI.rule,AI
-RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/eBay.rule,EBAY
-RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/paypal.rule,PAYPAL
+RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Pay%20%26%20merce.rule,PAYBAY
+RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Talkcalling.rule,VOIP
 RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ins-tok-face-X.rule,INSFACXTOK
 RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/apple.rule,APPLE
 # 规则类型：
@@ -252,7 +253,6 @@ RULE-SET,https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rul
 # 本地局域网地址的规则集。
 
 # 表示CN地区的IP分流走直连，GEOIP数据库用来判断IP是否属于CN地区。默认使用Shadowrocket自带的GEOIP数据库，如果您想替换其他数据库，可在 设置 - GeoLite2数据库 里添加和修改。
-GEOIP,cn,CN,DIRECT
 
 # 表示当其他所有规则都匹配不到时才使用FINAL规则的策略。
 FINAL,PROXY
