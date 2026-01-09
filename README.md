@@ -3,7 +3,7 @@
 ## AD 规则
 [订阅 AD 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/AD.rule)
 
-## 海外证券 / IBank 规则
+## 盈透 /嘉信 / 第一 / HK-Bank / Bian / oky 规则
 [订阅 Ibank 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ibank.rule)
 
 ## Apple 系统服务规则
@@ -12,14 +12,14 @@
 ## AI 规则
 [订阅 AI 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/AI.rule)
 
-## eBay / 虚拟号 规则
-[订阅 eBay 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/eBay.rule)
+## 通信 / 虚拟号 规则
+[订阅 通信/虚拟号 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Talkcalling.rule)
 
-## PayPal 规则
-[订阅 PayPal 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/paypal.rule)
+## 支付电商 规则
+[订阅 支付电商 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Pay%20%26%20merce.rule)
 
-## Instagram / TikTok / Facebook / X 规则
-[订阅 Ins-tok-face-X 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ins-tok-face-X.rule)
+## Instagram / TikTok / Facebook / X / Discord 规则
+[订阅 社交 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ins-tok-face-X.rule)
 
 ## 检测IP 规则
 [订阅 检测IP 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/IP.rule)
@@ -30,6 +30,6 @@
 
 
 ## Shadoworcket 配置
-[订阅 小火箭 配置规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/shadowrockets.rule)
+[订阅 小火箭 配置规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/module/shadowrockets.rule)
 ## 模块
 [小火箭模块](https://github.com/hxn996/loon-rules/blob/main/module/self.sgmodule)
