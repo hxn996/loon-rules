@@ -1,6 +1,6 @@
-ip.sb
-ip.ping0.cc
-ipinfo.io
-whoer.net
-scamalytics.com
-browserleaks.com/ip
+DOMAIN-SUFFIX,ip.sb,proxy
+DOMAIN-SUFFIX,ping0.cc,proxy
+DOMAIN-SUFFIX,ipinfo.io,proxy
+DOMAIN-SUFFIX,whoer.net,proxy
+DOMAIN-SUFFIX,scamalytics.com,proxy
+DOMAIN-SUFFIX,browserleaks.com,proxy
