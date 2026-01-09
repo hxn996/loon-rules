@@ -1,7 +1,0 @@
-# TextNow（虚拟号码）
-DOMAIN-SUFFIX,textnow.com,PROXY
-DOMAIN-SUFFIX,tnstatic.net,PROXY
-
-# Talkatone（虚拟号码）
-DOMAIN-SUFFIX,talkatone.com,PROXY
-DOMAIN-SUFFIX,gtalkatone.com,PROXY

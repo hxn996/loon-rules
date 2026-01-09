@@ -1,0 +1,48 @@
+################################
+# 📞 VoIP / Phone / Talkatone
+# TextNow / Google VoIP / T-Mobile
+################################
+
+
+##############
+# 📱 TextNow
+##############
+DOMAIN-SUFFIX,textnow.com,PROXY
+DOMAIN-SUFFIX,tnstatic.net,PROXY
+DOMAIN-SUFFIX,textnow.me,PROXY
+
+
+################################
+# 📞 Talkatone
+################################
+DOMAIN-SUFFIX,talkatone.com,PROXY
+DOMAIN-SUFFIX,gtalkatone.com,PROXY
+
+
+##############
+# ☎️ Google VoIP / 通话相关
+##############
+DOMAIN-SUFFIX,voice.google.com,PROXY
+DOMAIN-SUFFIX,googlevoice.com,PROXY
+DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+
+
+##############
+# 📡 T-Mobile（运营商 / 验证 / App）
+##############
+DOMAIN-SUFFIX,t-mobile.com,PROXY
+DOMAIN-SUFFIX,tmo.com,PROXY
+DOMAIN-SUFFIX,t-mobile.nl,PROXY
+DOMAIN-SUFFIX,tmobile.com,PROXY
+DOMAIN-SUFFIX,tmomail.net,PROXY
+
+
+##############
+# 🔐 通用语音 / 验证 / CDN（常见依赖）
+##############
+DOMAIN-SUFFIX,twilio.com,PROXY
+DOMAIN-SUFFIX,signalwire.com,PROXY
+DOMAIN-SUFFIX,cloudflare.com,PROXY
+DOMAIN-SUFFIX,akamaihd.net,PROXY
