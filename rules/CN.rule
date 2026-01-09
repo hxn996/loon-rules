@@ -1,4 +1,67 @@
-# -------- 海外穿墙兜底 --------
-GEOIP,cn,DIRECT
+############################
+# 🇨🇳 China Direct Rules
+# 适用：Loon / Shadowrocket
+############################
+
+# --- 中国 IP 直连（底座，必须） ---
 GEOIP,CN,DIRECT
-FINAL,PROXY
+
+# --- 中国顶级域名 ---
+DOMAIN-SUFFIX,cn,DIRECT
+
+# --- 阿里 / 蚂蚁 / 淘系 ---
+DOMAIN-SUFFIX,alibaba.com,DIRECT
+DOMAIN-SUFFIX,alipay.com,DIRECT
+DOMAIN-SUFFIX,antgroup.com,DIRECT
+DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,tmall.com,DIRECT
+DOMAIN-SUFFIX,1688.com,DIRECT
+DOMAIN-SUFFIX,aliyun.com,DIRECT
+DOMAIN-SUFFIX,alicdn.com,DIRECT
+DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+
+# --- 腾讯 ---
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,tencent.com,DIRECT
+DOMAIN-SUFFIX,wechat.com,DIRECT
+DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,myqcloud.com,DIRECT
+DOMAIN-SUFFIX,qcloud.com,DIRECT
+
+# --- 百度 / 字节 ---
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,bdimg.com,DIRECT
+DOMAIN-SUFFIX,bdstatic.com,DIRECT
+DOMAIN-SUFFIX,bytedance.com,DIRECT
+DOMAIN-SUFFIX,toutiao.com,DIRECT
+DOMAIN-SUFFIX,douyin.com,DIRECT
+
+# --- 视频 / 音乐 / 社交 ---
+DOMAIN-SUFFIX,bilibili.com,DIRECT
+DOMAIN-SUFFIX,bilivideo.com,DIRECT
+DOMAIN-SUFFIX,iqiyi.com,DIRECT
+DOMAIN-SUFFIX,iqiyipic.com,DIRECT
+DOMAIN-SUFFIX,youku.com,DIRECT
+DOMAIN-SUFFIX,netease.com,DIRECT
+DOMAIN-SUFFIX,163.com,DIRECT
+DOMAIN-SUFFIX,music.163.com,DIRECT
+DOMAIN-SUFFIX,weibo.com,DIRECT
+DOMAIN-SUFFIX,ximalaya.com,DIRECT
+
+# --- 银行 / 支付 / 政务 ---
+DOMAIN-SUFFIX,unionpay.com,DIRECT
+DOMAIN-SUFFIX,95516.com,DIRECT
+DOMAIN-SUFFIX,pbc.gov.cn,DIRECT
+DOMAIN-SUFFIX,gov.cn,DIRECT
+DOMAIN-SUFFIX,cmbchina.com,DIRECT
+DOMAIN-SUFFIX,icbc.com.cn,DIRECT
+DOMAIN-SUFFIX,ccb.com,DIRECT
+DOMAIN-SUFFIX,bankcomm.com,DIRECT
+DOMAIN-SUFFIX,abchina.com,DIRECT
+
+# --- 国内 CDN / 基础设施 ---
+DOMAIN-SUFFIX,upaiyun.com,DIRECT
+DOMAIN-SUFFIX,chinacache.com,DIRECT
+
+# --- 兜底（国内直连优先）---
+MATCH,DIRECT
