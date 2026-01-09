@@ -1,0 +1,61 @@
+################################
+# 💳🛒 Payment & eCommerce Ruleset
+# PayPal / TevauPay / eBay
+################################
+
+
+##############
+# 💳 PayPal 主站 / 账号
+##############
+DOMAIN-SUFFIX,paypal.com,PROXY
+DOMAIN-SUFFIX,paypalobjects.com,PROXY
+DOMAIN-SUFFIX,paypal.me,PROXY
+DOMAIN-SUFFIX,pypl.com,PROXY
+
+
+##############
+# 🔐 PayPal API / 支付 / 回调
+##############
+DOMAIN-SUFFIX,api.paypal.com,PROXY
+DOMAIN-SUFFIX,api-m.paypal.com,PROXY
+DOMAIN-SUFFIX,notify.paypal.com,PROXY
+DOMAIN-SUFFIX,checkout.paypal.com,PROXY
+
+
+##############
+# 🧾 Braintree（PayPal 旗下）
+##############
+DOMAIN-SUFFIX,braintreegateway.com,PROXY
+DOMAIN-SUFFIX,braintree-api.com,PROXY
+
+
+##############
+# 🛡️ PayPal 风控 / CDN
+##############
+DOMAIN-SUFFIX,qualtrics.com,PROXY
+DOMAIN-SUFFIX,akamaihd.net,PROXY
+
+
+##############
+# 🧠 PayPal 关键词兜底
+##############
+DOMAIN-KEYWORD,paypal,PROXY
+DOMAIN-KEYWORD,pypl,PROXY
+
+
+##############
+# 💳 TevauPay 支付
+##############
+DOMAIN-SUFFIX,tevaupay.com,PROXY
+DOMAIN-SUFFIX,api.tevaupay.com,PROXY
+DOMAIN-SUFFIX,pay.tevaupay.com,PROXY
+DOMAIN-SUFFIX,checkout.tevaupay.com,PROXY
+
+
+##############
+# 🛒 eBay 电商 / 账号 / 资源
+##############
+DOMAIN-SUFFIX,ebay.com,PROXY
+DOMAIN-SUFFIX,ebaystatic.com,PROXY
+DOMAIN-SUFFIX,ebayimg.com,PROXY
+DOMAIN-SUFFIX,ebaycdn.net,PROXY
