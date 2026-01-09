@@ -12,14 +12,3 @@ DOMAIN-SUFFIX,ebaystatic.com,PROXY
 DOMAIN-SUFFIX,ebayimg.com,PROXY
 DOMAIN-SUFFIX,ebaycdn.net,PROXY
 
-# Discord 主站 / 登录 / API
-DOMAIN-SUFFIX,discord.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,discordapp.net,PROXY
-
-# Discord CDN（图片 / 语音 / 资源）
-DOMAIN-SUFFIX,discordcdn.com,PROXY
-DOMAIN-SUFFIX,discordmedia.net,PROXY
-
-# Web / 邀请
-DOMAIN-SUFFIX,discord.gg,PROXY
