@@ -1,0 +1,52 @@
+################################
+# 🇺🇸 US Finance (ITIN Only)
+# Capital One / AmEx / SoFi / Axos
+################################
+
+
+##############
+# 🏦 Axos Bank（富港银行｜ITIN 友好）
+##############
+DOMAIN-SUFFIX,axosbank.com,PROXY
+DOMAIN-SUFFIX,axos.com,PROXY
+DOMAIN-SUFFIX,bofi.com,PROXY
+DOMAIN-KEYWORD,axos,PROXY
+DOMAIN-KEYWORD,bofi,PROXY
+
+
+##############
+# 🏦 Capital One（ITIN 可）
+##############
+DOMAIN-SUFFIX,capitalone.com,PROXY
+DOMAIN-SUFFIX,capitalone360.com,PROXY
+DOMAIN-SUFFIX,capitaloneonline.com,PROXY
+DOMAIN-KEYWORD,capitalone,PROXY
+
+
+##############
+# 💳 American Express（ITIN 可）
+##############
+DOMAIN-SUFFIX,americanexpress.com,PROXY
+DOMAIN-SUFFIX,amex.com,PROXY
+DOMAIN-SUFFIX,aexp.com,PROXY
+DOMAIN-SUFFIX,global.americanexpress.com,PROXY
+DOMAIN-KEYWORD,americanexpress,PROXY
+DOMAIN-KEYWORD,amex,PROXY
+
+
+##############
+# 🏦 SoFi（部分可 ITIN，保留）
+##############
+DOMAIN-SUFFIX,sofi.com,PROXY
+DOMAIN-SUFFIX,sofi.org,PROXY
+DOMAIN-SUFFIX,sofiusercontent.com,PROXY
+DOMAIN-KEYWORD,sofi,PROXY
+
+
+##############
+# 🔐 通用登录 / 风控 / CDN
+##############
+DOMAIN-SUFFIX,akamaihd.net,PROXY
+DOMAIN-SUFFIX,akamaized.net,PROXY
+DOMAIN-SUFFIX,cloudflare.com,PROXY
+DOMAIN-SUFFIX,auth0.com,PROXY
