@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,textnow.me,PROXY
 ################################
 DOMAIN-SUFFIX,talkatone.com,PROXY
 DOMAIN-SUFFIX,gtalkatone.com,PROXY
-
+DOMAIN-SUFFIX,talkatonefree.com,PROXY
 
 ##############
 # ☎️ Google VoIP / 通话相关
@@ -46,3 +46,4 @@ DOMAIN-SUFFIX,twilio.com,PROXY
 DOMAIN-SUFFIX,signalwire.com,PROXY
 DOMAIN-SUFFIX,cloudflare.com,PROXY
 DOMAIN-SUFFIX,akamaihd.net,PROXY
+DOMAIN-SUFFIX,cloudfront.net,PROXY
