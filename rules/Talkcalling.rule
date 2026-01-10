@@ -24,24 +24,11 @@ DOMAIN-SUFFIX,gtalkatone.com,PROXY
 DOMAIN-SUFFIX,api.talkatone.com,PROXY
 DOMAIN-SUFFIX,app.talkatone.com,PROXY
 
-# 第三方 SDK 初始化（实锤必需）
-DOMAIN-SUFFIX,inner-active.mobi,PROXY
-DOMAIN-SUFFIX,amazon-adsystem.com,PROXY
-DOMAIN-SUFFIX,checkip.amazonaws.com,PROXY
-
 # 通话建立（STUN / TURN）
 DOMAIN-SUFFIX,stun.l.google.com,PROXY
 DOMAIN-SUFFIX,turn.googleapis.com,PROXY
 DOMAIN-KEYWORD,stun,PROXY
 DOMAIN-KEYWORD,turn,PROXY
-
-# CDN（资源加载必需）
-DOMAIN-SUFFIX,cloudfront.net,PROXY
-DOMAIN-SUFFIX,akamaihd.net,PROXY
-
-# Talkatone 兜底（只兜本服务）
-DOMAIN-KEYWORD,talkatone,PROXY
-
 
 ##############
 # ☎️ Google Voice / Google 通话
@@ -71,3 +58,7 @@ DOMAIN-SUFFIX,tmobileapi.com,PROXY
 ##############
 DOMAIN-SUFFIX,twilio.com,PROXY
 DOMAIN-SUFFIX,signalwire.com,PROXY
+
+# CDN（资源加载必需）
+DOMAIN-SUFFIX,cloudfront.net,PROXY
+DOMAIN-SUFFIX,akamaihd.net,PROXY
