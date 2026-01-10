@@ -1,89 +1,73 @@
 ################################
-# 📞 VoIP / Phone / Talkatone (Enhanced)
+# 📞 VoIP / Phone Global Ruleset
 # TextNow / Talkatone / Google Voice / T-Mobile
 ################################
 
 
 ##############
-# 📱 TextNow（你原有）
+# 📱 TextNow
 ##############
 DOMAIN-SUFFIX,textnow.com,PROXY
 DOMAIN-SUFFIX,tnstatic.net,PROXY
 DOMAIN-SUFFIX,textnow.me,PROXY
-
-# TextNow 常见 API / 静态
 DOMAIN-SUFFIX,textnow-api.com,PROXY
 DOMAIN-SUFFIX,textnowcdn.com,PROXY
 DOMAIN-KEYWORD,textnow,PROXY
 
 
-################################
-# 📞 Talkatone（补全）
-################################
+##############
+# 📞 Talkatone（精简并入版）
+##############
+# 核心主域 / API
 DOMAIN-SUFFIX,talkatone.com,PROXY
 DOMAIN-SUFFIX,gtalkatone.com,PROXY
-DOMAIN-SUFFIX,talkatonefree.com,PROXY
-
-# Talkatone API / 子域（非常关键）
 DOMAIN-SUFFIX,api.talkatone.com,PROXY
 DOMAIN-SUFFIX,app.talkatone.com,PROXY
 
-# Talkatone 关键词兜底（防漏）
-DOMAIN-KEYWORD,talkatone,PROXY
-DOMAIN-KEYWORD,gtalkatone,PROXY
+# 第三方 SDK 初始化（实锤必需）
+DOMAIN-SUFFIX,inner-active.mobi,PROXY
+DOMAIN-SUFFIX,amazon-adsystem.com,PROXY
+DOMAIN-SUFFIX,checkip.amazonaws.com,PROXY
 
-# 官方支持 / 工单
-DOMAIN-SUFFIX,talkatone.zendesk.com,PROXY
-DOMAIN-SUFFIX,zendesk.com,PROXY
-DOMAIN-SUFFIX,zdassets.com,PROXY
-DOMAIN-SUFFIX,zendeskusercontent.com,PROXY
+# 通话建立（STUN / TURN）
+DOMAIN-SUFFIX,stun.l.google.com,PROXY
+DOMAIN-SUFFIX,turn.googleapis.com,PROXY
+DOMAIN-KEYWORD,stun,PROXY
+DOMAIN-KEYWORD,turn,PROXY
+
+# CDN（资源加载必需）
+DOMAIN-SUFFIX,cloudfront.net,PROXY
+DOMAIN-SUFFIX,akamaihd.net,PROXY
+
+# Talkatone 兜底（只兜本服务）
+DOMAIN-KEYWORD,talkatone,PROXY
 
 
 ##############
-# ☎️ Google VoIP / Google Voice（补关键点）
+# ☎️ Google Voice / Google 通话
 ##############
 DOMAIN-SUFFIX,voice.google.com,PROXY
 DOMAIN-SUFFIX,googlevoice.com,PROXY
-
-# 登录 / 通话 / 推送 必须
 DOMAIN-SUFFIX,google.com,PROXY
 DOMAIN-SUFFIX,googleapis.com,PROXY
 DOMAIN-SUFFIX,gstatic.com,PROXY
 DOMAIN-SUFFIX,googleusercontent.com,PROXY
 
-# WebRTC / 通话建立（漏了会“能登录但打不了”）
-DOMAIN-SUFFIX,stun.l.google.com,PROXY
-DOMAIN-SUFFIX,turn.googleapis.com,PROXY
-
 
 ##############
-# 📡 T-Mobile（补 API / App）
+# 📡 T-Mobile（运营商 / App / API）
 ##############
 DOMAIN-SUFFIX,t-mobile.com,PROXY
 DOMAIN-SUFFIX,tmobile.com,PROXY
 DOMAIN-SUFFIX,tmo.com,PROXY
 DOMAIN-SUFFIX,t-mobile.nl,PROXY
 DOMAIN-SUFFIX,tmomail.net,PROXY
-
-# T-Mobile App / 账户接口
 DOMAIN-SUFFIX,mytmobile.com,PROXY
 DOMAIN-SUFFIX,tmobileapi.com,PROXY
 
 
 ##############
-# 🔐 通用 VoIP / 通话 / CDN（决定是否“能接通”）
+# 🔐 通话服务商（VoIP 底层）
 ##############
-
-# 语音服务商（非常关键）
 DOMAIN-SUFFIX,twilio.com,PROXY
 DOMAIN-SUFFIX,signalwire.com,PROXY
-
-# WebRTC / 通话中继（很多 VoIP 会调用）
-DOMAIN-SUFFIX,turnserver.com,PROXY
-DOMAIN-KEYWORD,stun,PROXY
-DOMAIN-KEYWORD,turn,PROXY
-
-# CDN / 加速（漏了 = 白屏 / 卡加载）
-DOMAIN-SUFFIX,cloudflare.com,PROXY
-DOMAIN-SUFFIX,akamaihd.net,PROXY
-DOMAIN-SUFFIX,cloudfront.net,PROXY
