@@ -1,10 +1,19 @@
-# Loon 规则订阅
+# 🎈 / 🚀 rules
 
 ## AD 规则
 [订阅 AD 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/AD.rule)
 
-## 盈透 /嘉信 / 第一 / HK-Bank / Bian / oky 规则
-[订阅 Ibank 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ibank.rule)
+##  HK-Bank 规则
+[订阅 HKbank 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/HKbank.rule)
+
+## 盈透 /嘉信 / 第一 / 交易所 规则
+[订阅 Exchanges](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Exchanges.rule)
+
+##  US-Bank 规则
+[订阅 USbank 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/USbank.rule)
+
+## 支付电商 规则
+[订阅 支付电商 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/PayBuy.rule)
 
 ## Apple 系统服务规则
 [订阅 Apple 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/apple.rule)
@@ -14,9 +23,6 @@
 
 ## 通信 / 虚拟号 规则
 [订阅 通信/虚拟号 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Talkcalling.rule)
-
-## 支付电商 规则
-[订阅 支付电商 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Pay%20%26%20merce.rule)
 
 ## Instagram / TikTok / Facebook / X / Discord 规则
 [订阅 社交 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/Ins-tok-face-X.rule)
