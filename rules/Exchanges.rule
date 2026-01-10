@@ -1,8 +1,34 @@
 ##############
+# 📈 Brokerage 券商 
 # 🪙 Crypto Exchanges 加密货币
 ##############
+# Interactive Brokers 盈透
+DOMAIN-SUFFIX,interactivebrokers.com,PROXY
+DOMAIN-SUFFIX,ibkr.com,PROXY
+
+# Charles Schwab 嘉信
+DOMAIN-SUFFIX,charleschwab.com,PROXY
+DOMAIN-SUFFIX,schwab.com,PROXY
+
+# 第一证券官网与登录
+DOMAIN-SUFFIX,1stsec.com,PROXY
+DOMAIN-SUFFIX,firstsecurities.com,PROXY
+
+# 交易所
 DOMAIN-SUFFIX,binance.com,PROXY
 DOMAIN-SUFFIX,binance.info,PROXY
 DOMAIN-SUFFIX,coinbase.com,PROXY
 DOMAIN-SUFFIX,okx.com,PROXY
 DOMAIN-SUFFIX,bybit.com,PROXY
+
+# 交易与行情接口
+DOMAIN-SUFFIX,api.1stsec.com,PROXY
+DOMAIN-SUFFIX,trade.1stsec.com,PROXY
+DOMAIN-SUFFIX,marketdata.1stsec.com,PROXY
+# 风控与验证
+DOMAIN-SUFFIX,auth.1stsec.com,PROXY
+DOMAIN-SUFFIX,auth0.com,PROXY
+DOMAIN-SUFFIX,arkoselabs.com,PROXY
+DOMAIN-SUFFIX,cloudflare.com,PROXY
+DOMAIN-SUFFIX,akamaihd.net,PROXY
+DOMAIN-SUFFIX,recaptcha.net,PROXY
