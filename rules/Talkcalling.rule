@@ -18,6 +18,14 @@ DOMAIN-SUFFIX,textnow.me,PROXY
 DOMAIN-SUFFIX,talkatone.com,PROXY
 DOMAIN-SUFFIX,gtalkatone.com,PROXY
 DOMAIN-SUFFIX,talkatonefree.com,PROXY
+DOMAIN-KEYWORD,talkatone,PROXY
+DOMAIN-KEYWORD,gtalkatone,PROXY
+# 官方帮助/工单（Talkatone 用 Zendesk 很常见）
+DOMAIN-SUFFIX,talkatone.zendesk.com,PROXY
+DOMAIN-SUFFIX,zendesk.com,PROXY
+DOMAIN-SUFFIX,zdassets.com,PROXY
+DOMAIN-SUFFIX,zendeskusercontent.com,PROXY
+
 
 ##############
 # ☎️ Google VoIP / 通话相关
