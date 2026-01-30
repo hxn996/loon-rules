@@ -64,3 +64,14 @@ DOMAIN-SUFFIX,wiseapp.com,PROXY
 DOMAIN-SUFFIX,transferwise.com,PROXY
 DOMAIN-SUFFIX,tw-static.com,PROXY
 
+# Interactive Brokers 盈透
+DOMAIN-SUFFIX,interactivebrokers.com,PROXY
+DOMAIN-SUFFIX,ibkr.com,PROXY
+
+# Charles Schwab 嘉信
+DOMAIN-SUFFIX,charleschwab.com,PROXY
+DOMAIN-SUFFIX,schwab.com,PROXY
+
+# 第一证券官网与登录
+DOMAIN-SUFFIX,1stsec.com,PROXY
+DOMAIN-SUFFIX,firstsecurities.com,PROXY
