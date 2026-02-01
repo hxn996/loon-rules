@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,okx.com,PROXY
 DOMAIN-SUFFIX,bybit.com,PROXY
 DOMAIN-SUFFIX,bybitglobal.com,PROXY
 DOMAIN-SUFFIX,bybit.biz,PROXY
+DOMAIN-SUFFIX,bybdc6.com,PROXY
 
 # 交易与行情接口
 DOMAIN-SUFFIX,api.1stsec.com,PROXY
