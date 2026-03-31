@@ -34,7 +34,7 @@
 [订阅 CN 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/CN.rule)
 
 ## 限定TW
-[订阅 LimiedTW 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/LimitedTW)
+[订阅 LimitTW 规则](https://raw.githubusercontent.com/hxn996/loon-rules/refs/heads/main/rules/LimitTW.rule)
 
 
 ## Shadoworcket 
