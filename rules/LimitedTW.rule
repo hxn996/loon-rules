@@ -1,12 +1,11 @@
-rules:
-  # ===== 动画疯（强制走代理）=====
-  - DOMAIN-SUFFIX,ani.gamer.com.tw,PROXY
-  - DOMAIN-SUFFIX,gamer.com.tw,PROXY
-  - DOMAIN-SUFFIX,bahamut.com.tw,PROXY
+# ===== 动画疯（强制走代理）=====
+DOMAIN-SUFFIX,ani.gamer.com.tw,PROXY
+DOMAIN-SUFFIX,gamer.com.tw,PROXY
+DOMAIN-SUFFIX,bahamut.com.tw,PROXY
 
-  # 视频CDN（关键，否则会卡/加载失败）
-  - DOMAIN-SUFFIX,googlevideo.com,PROXY
-  - DOMAIN-SUFFIX,gvt1.com,PROXY
+# 视频CDN（关键，否则会卡/加载失败）
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,gvt1.com,PROXY
 
-  # ===== 台湾IP需求（可选优化）=====
-  - GEOIP,TW,PROXY
+# ===== 台湾IP需求（可选优化）=====
+GEOIP,TW,PROXY
