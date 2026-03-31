@@ -1,4 +1,5 @@
 # ===== 动画疯（强制走代理）=====
+DOMAIN-SUFFIX,hinet.net,PROXY
 DOMAIN-SUFFIX,ani.gamer.com.tw,PROXY
 DOMAIN-SUFFIX,gamer.com.tw,PROXY
 DOMAIN-SUFFIX,bahamut.com.tw,PROXY
