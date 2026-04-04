@@ -1,0 +1,8 @@
+payload:
+- DOMAIN-SUFFIX,hinet.net
+- DOMAIN-SUFFIX,ani.gamer.com.tw
+- DOMAIN-SUFFIX,gamer.com.tw
+- DOMAIN-SUFFIX,bahamut.com.tw
+- DOMAIN-SUFFIX,googlevideo.com
+- DOMAIN-SUFFIX,gvt1.com
+- GEOIP,TW

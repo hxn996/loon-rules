@@ -1,0 +1,18 @@
+payload:
+- DOMAIN-SUFFIX,bybit.com
+- DOMAIN-SUFFIX,bybitapi.com
+- DOMAIN-SUFFIX,bybitconnect.com
+- DOMAIN-KEYWORD,bybit
+- DOMAIN-SUFFIX,binance.com
+- DOMAIN-SUFFIX,binance.info
+- DOMAIN-SUFFIX,coinbase.com
+- DOMAIN-SUFFIX,okx.com
+- DOMAIN-SUFFIX,api.1stsec.com
+- DOMAIN-SUFFIX,trade.1stsec.com
+- DOMAIN-SUFFIX,marketdata.1stsec.com
+- DOMAIN-SUFFIX,auth.1stsec.com
+- DOMAIN-SUFFIX,auth0.com
+- DOMAIN-SUFFIX,arkoselabs.com
+- DOMAIN-SUFFIX,cloudflare.com
+- DOMAIN-SUFFIX,akamaihd.net
+- DOMAIN-SUFFIX,recaptcha.net
