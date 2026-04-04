@@ -1,77 +1,50 @@
-################################
-# 💰 Finance Global Ruleset
-# 银行 / 数字银行 / 券商 
-################################
+payload:
+  # ===== HSBC 汇丰 =====
+  - DOMAIN-SUFFIX,hsbc.com
+  - DOMAIN-SUFFIX,hsbcnet.com
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,hsbcamanah.com
+  - DOMAIN-SUFFIX,hsbc.co.uk
 
+  # ===== Bank of China 中银 =====
+  - DOMAIN-SUFFIX,bochk.com
+  - DOMAIN-SUFFIX,boc.cn
+  - DOMAIN-SUFFIX,bocaviation.com
+  - DOMAIN-SUFFIX,bocgroup.com
+  - DOMAIN-SUFFIX,bankofchina.com
 
-##############
-# 🏦 HSBC 汇丰
-##############
-DOMAIN-SUFFIX,hsbc.com,PROXY
-DOMAIN-SUFFIX,hsbcnet.com,PROXY
-DOMAIN-SUFFIX,hsbc.com.hk,PROXY
-DOMAIN-SUFFIX,hsbcamanah.com,PROXY
-DOMAIN-SUFFIX,hsbc.co.uk,PROXY
+  # ===== ZA Bank 众安 =====
+  - DOMAIN-SUFFIX,za.group
+  - DOMAIN-SUFFIX,zabank.com
+  - DOMAIN-SUFFIX,za.com.hk
 
+  # ===== Airstar Bank 天星 =====
+  - DOMAIN-SUFFIX,airstarbank.com
+  - DOMAIN-SUFFIX,airstarbank.hk
 
-##############
-# 🏦 Bank of China 中银
-##############
-DOMAIN-SUFFIX,bochk.com,PROXY
-DOMAIN-SUFFIX,boc.cn,PROXY
-DOMAIN-SUFFIX,bocaviation.com,PROXY
-DOMAIN-SUFFIX,bocgroup.com,PROXY
-DOMAIN-SUFFIX,bankofchina.com,PROXY
+  # ===== Ant Bank / Alipay HK =====
+  - DOMAIN-SUFFIX,antbank.hk
+  - DOMAIN-SUFFIX,antgroup.com
+  - DOMAIN-SUFFIX,alipayhk.com
+  - DOMAIN-SUFFIX,alipay.com
 
+  # ===== WeLab Bank 汇立 =====
+  - DOMAIN-SUFFIX,welab.bank
+  - DOMAIN-SUFFIX,welab.co
+  - DOMAIN-SUFFIX,welabbank.com.hk
 
-##############
-# 🏦 ZA Bank 众安
-##############
-DOMAIN-SUFFIX,za.group,PROXY
-DOMAIN-SUFFIX,zabank.com,PROXY
-DOMAIN-SUFFIX,za.com.hk,PROXY
+  # ===== Wise =====
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,wiseapp.com
+  - DOMAIN-SUFFIX,transferwise.com
+  - DOMAIN-SUFFIX,tw-static.com
 
+  # ===== 券商 =====
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,charleschwab.com
+  - DOMAIN-SUFFIX,schwab.com
 
-##############
-# 🏦 Airstar Bank 天星
-##############
-DOMAIN-SUFFIX,airstarbank.com,PROXY
-DOMAIN-SUFFIX,airstarbank.hk,PROXY
-
-
-##############
-# 🏦 Ant Bank / Alipay HK 蚂蚁
-##############
-DOMAIN-SUFFIX,antbank.hk,PROXY
-DOMAIN-SUFFIX,antgroup.com,PROXY
-DOMAIN-SUFFIX,alipayhk.com,PROXY
-DOMAIN-SUFFIX,alipay.com,PROXY
-
-
-##############
-# 🏦 WeLab Bank 汇立
-##############
-DOMAIN-SUFFIX,welab.bank,PROXY
-DOMAIN-SUFFIX,welab.co,PROXY
-DOMAIN-SUFFIX,welabbank.com.hk,PROXY
-
-
-##############
-# 💸 Wise / TransferWise
-##############
-DOMAIN-SUFFIX,wise.com,PROXY
-DOMAIN-SUFFIX,wiseapp.com,PROXY
-DOMAIN-SUFFIX,transferwise.com,PROXY
-DOMAIN-SUFFIX,tw-static.com,PROXY
-
-# Interactive Brokers 盈透
-DOMAIN-SUFFIX,interactivebrokers.com,PROXY
-DOMAIN-SUFFIX,ibkr.com,PROXY
-
-# Charles Schwab 嘉信
-DOMAIN-SUFFIX,charleschwab.com,PROXY
-DOMAIN-SUFFIX,schwab.com,PROXY
-
-# 第一证券官网与登录
-DOMAIN-SUFFIX,1stsec.com,PROXY
-DOMAIN-SUFFIX,firstsecurities.com,PROXY
+  # ===== 第一证券 =====
+  - DOMAIN-SUFFIX,1stsec.com
+  - DOMAIN-SUFFIX,firstsecurities.com
