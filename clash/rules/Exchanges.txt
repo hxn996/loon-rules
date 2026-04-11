@@ -1,28 +1,36 @@
-##############
-# 🪙 Crypto Exchanges 加密货币
-##############
+################################
+# 🪙 Crypto Exchanges (Clash)
+################################
 
 # ===== Bybit =====
-DOMAIN-SUFFIX,bybit.com,Proxy
-DOMAIN-SUFFIX,bybitapi.com,Proxy
-DOMAIN-SUFFIX,bybitconnect.com,Proxy
-DOMAIN-KEYWORD,bybit,Proxy
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitapi.com
+DOMAIN-SUFFIX,bybitconnect.com
+DOMAIN-KEYWORD,bybit
 
-# 交易所
-DOMAIN-SUFFIX,binance.com,PROXY
-DOMAIN-SUFFIX,binance.info,PROXY
-DOMAIN-SUFFIX,coinbase.com,PROXY
-DOMAIN-SUFFIX,okx.com,PROXY
+# ===== 主流交易所 =====
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,okx.com
 
-# 交易与行情接口
-DOMAIN-SUFFIX,api.1stsec.com,PROXY
-DOMAIN-SUFFIX,trade.1stsec.com,PROXY
-DOMAIN-SUFFIX,marketdata.1stsec.com,PROXY
+# ===== 第一证券接口 =====
+DOMAIN-SUFFIX,1stsec.com
+DOMAIN-SUFFIX,api.1stsec.com
+DOMAIN-SUFFIX,trade.1stsec.com
+DOMAIN-SUFFIX,marketdata.1stsec.com
+DOMAIN-SUFFIX,auth.1stsec.com
 
-# 风控与验证
-DOMAIN-SUFFIX,auth.1stsec.com,PROXY
-DOMAIN-SUFFIX,auth0.com,PROXY
-DOMAIN-SUFFIX,arkoselabs.com,PROXY
-DOMAIN-SUFFIX,cloudflare.com,PROXY
-DOMAIN-SUFFIX,akamaihd.net,PROXY
-DOMAIN-SUFFIX,recaptcha.net,PROXY
+# ===== 风控 / 验证（关键）=====
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,recaptcha.net
+
+# ⚠️ CDN（谨慎放，避免误伤）
+DOMAIN-KEYWORD,cloudflare
+DOMAIN-SUFFIX,akamaihd.net
+
+# 🔥 提高命中率
+DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,okx
+DOMAIN-KEYWORD,coinbase
