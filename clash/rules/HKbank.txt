@@ -1,76 +1,75 @@
 ################################
-# 💰 Finance Global Ruleset
-# 银行 / 数字银行 / 券商 
+# 💰 Finance Global Ruleset (Clash)
 ################################
 
 ##############
 # 🏦 HSBC 汇丰
 ##############
-DOMAIN-SUFFIX,hsbc.com,PROXY
-DOMAIN-SUFFIX,hsbcnet.com,PROXY
-DOMAIN-SUFFIX,hsbc.com.hk,PROXY
-DOMAIN-SUFFIX,hsbcamanah.com,PROXY
-DOMAIN-SUFFIX,hsbc.co.uk,PROXY
-
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,hsbcnet.com
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbcamanah.com
+DOMAIN-SUFFIX,hsbc.co.uk
 
 ##############
 # 🏦 Bank of China 中银
 ##############
-DOMAIN-SUFFIX,bochk.com,PROXY
-DOMAIN-SUFFIX,boc.cn,PROXY
-DOMAIN-SUFFIX,bocaviation.com,PROXY
-DOMAIN-SUFFIX,bocgroup.com,PROXY
-DOMAIN-SUFFIX,bankofchina.com,PROXY
-
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,bocaviation.com
+DOMAIN-SUFFIX,bocgroup.com
+DOMAIN-SUFFIX,bankofchina.com
 
 ##############
 # 🏦 ZA Bank 众安
 ##############
-DOMAIN-SUFFIX,za.group,PROXY
-DOMAIN-SUFFIX,zabank.com,PROXY
-DOMAIN-SUFFIX,za.com.hk,PROXY
-
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zabank.com
+DOMAIN-SUFFIX,za.com.hk
 
 ##############
 # 🏦 Airstar Bank 天星
 ##############
-DOMAIN-SUFFIX,airstarbank.com,PROXY
-DOMAIN-SUFFIX,airstarbank.hk,PROXY
-
+DOMAIN-SUFFIX,airstarbank.com
+DOMAIN-SUFFIX,airstarbank.hk
 
 ##############
-# 🏦 Ant Bank / Alipay HK 蚂蚁
+# 🏦 Ant Bank / Alipay HK
 ##############
-DOMAIN-SUFFIX,antbank.hk,PROXY
-DOMAIN-SUFFIX,antgroup.com,PROXY
-DOMAIN-SUFFIX,alipayhk.com,PROXY
-DOMAIN-SUFFIX,alipay.com,PROXY
-
+DOMAIN-SUFFIX,antbank.hk
+DOMAIN-SUFFIX,antgroup.com
+DOMAIN-SUFFIX,alipayhk.com
+DOMAIN-SUFFIX,alipay.com
 
 ##############
 # 🏦 WeLab Bank 汇立
 ##############
-DOMAIN-SUFFIX,welab.bank,PROXY
-DOMAIN-SUFFIX,welab.co,PROXY
-DOMAIN-SUFFIX,welabbank.com.hk,PROXY
-
+DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,welab.co
+DOMAIN-SUFFIX,welabbank.com.hk
 
 ##############
 # 💸 Wise / TransferWise
 ##############
-DOMAIN-SUFFIX,wise.com,PROXY
-DOMAIN-SUFFIX,wiseapp.com,PROXY
-DOMAIN-SUFFIX,transferwise.com,PROXY
-DOMAIN-SUFFIX,tw-static.com,PROXY
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,wiseapp.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,tw-static.com
 
-# Interactive Brokers 盈透
-DOMAIN-SUFFIX,interactivebrokers.com,PROXY
-DOMAIN-SUFFIX,ibkr.com,PROXY
+##############
+# 💹 券商
+##############
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,charleschwab.com
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,1stsec.com
+DOMAIN-SUFFIX,firstsecurities.com
 
-# Charles Schwab 嘉信
-DOMAIN-SUFFIX,charleschwab.com,PROXY
-DOMAIN-SUFFIX,schwab.com,PROXY
-
-# 第一证券官网与登录
-DOMAIN-SUFFIX,1stsec.com,PROXY
-DOMAIN-SUFFIX,firstsecurities.com,PROXY
+##############
+# 🔥 提高命中率（关键补充）
+##############
+DOMAIN-KEYWORD,hsbc
+DOMAIN-KEYWORD,wise
+DOMAIN-KEYWORD,schwab
+DOMAIN-KEYWORD,ibkr
