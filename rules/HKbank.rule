@@ -65,8 +65,7 @@ DOMAIN-SUFFIX,transferwise.com,PROXY
 DOMAIN-SUFFIX,tw-static.com,PROXY
 
 # Interactive Brokers 盈透
-DOMAIN-SUFFIX,interactivebrokers.com,PROXY
-DOMAIN-SUFFIX,ibkr.com,PROXY
+
 
 # Charles Schwab 嘉信
 DOMAIN-SUFFIX,charleschwab.com,PROXY
