@@ -1,0 +1,114 @@
+# Gaming Rules for OpenClash
+# Steam
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,cm.steampowered.com
+DOMAIN-SUFFIX,store.steampowered.com
+DOMAIN-KEYWORD,steam
+# Rockstar Games (R星)
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-SUFFIX,rockstar.com
+DOMAIN-SUFFIX,rgsc.rockstargames.com
+DOMAIN-SUFFIX,socialclub.rockstargames.com
+DOMAIN-SUFFIX,prod.ros.rockstargames.com
+DOMAIN-SUFFIX,titleservices.rockstargames.com
+DOMAIN-SUFFIX,cloudgi.rockstargames.com
+# Battle.net (战网)
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,bnetshopus.battle.net
+DOMAIN-SUFFIX,blzmedia.battle.net
+DOMAIN-SUFFIX,blznav.battle.net
+DOMAIN-SUFFIX,blzddist.battle.net
+DOMAIN-SUFFIX,blzcontent.battle.net
+DOMAIN-SUFFIX,us.battle.net
+DOMAIN-SUFFIX,eu.battle.net
+DOMAIN-SUFFIX,apac.battle.net
+# Epic Games
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,epicgames.dev
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,unrealtournament.com
+DOMAIN-SUFFIX,eac-cdn.epicgames.com
+DOMAIN-SUFFIX,egcdn.epicgames.com
+DOMAIN-SUFFIX,launcher-bot-service-prod.eco.epicgames.com
+# EA / Origin
+DOMAIN-SUFFIX,ea.com
+DOMAIN-SUFFIX,origin.com
+DOMAIN-SUFFIX,eaorigin.com
+DOMAIN-SUFFIX,eacompanionapp.com
+DOMAIN-SUFFIX,eacorewebprod.com
+DOMAIN-SUFFIX,easports.com
+DOMAIN-SUFFIX,eaassets.com
+DOMAIN-SUFFIX,origin-a.akamaihd.net
+DOMAIN-SUFFIX,cloudsync-prod.s3.amazonaws.com
+# Ubisoft / Uplay
+DOMAIN-SUFFIX,ubisoft.com
+DOMAIN-SUFFIX,ubisoft.org
+DOMAIN-SUFFIX,uplay.com
+DOMAIN-SUFFIX,ubisoftconnect.com
+DOMAIN-SUFFIX,ubi.com
+DOMAIN-SUFFIX,ubiservices.com
+# PlayStation
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+DOMAIN-SUFFIX,sony.com
+# Xbox / Microsoft Gaming
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxab.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservices.com
+DOMAIN-SUFFIX,gamepass.com
+DOMAIN-SUFFIX,microsoft.com
+# Nintendo
+DOMAIN-SUFFIX,nintendo.com
+DOMAIN-SUFFIX,nintendo.net
+DOMAIN-SUFFIX,nintendowifi.com
+DOMAIN-SUFFIX,nintendoswitch.com
+# GOG
+DOMAIN-SUFFIX,gog.com
+DOMAIN-SUFFIX,gog-statics.com
+DOMAIN-SUFFIX,gog-cdn.com
+# Discord (游戏语音)
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discord-status.com
+# Twitch (游戏直播)
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,twitch.tech
+# 游戏加速器/对战平台
+DOMAIN-SUFFIX,wayland.2k.com
+DOMAIN-SUFFIX,2k.com
+DOMAIN-SUFFIX,take2games.com
+DOMAIN-SUFFIX,activision.com
+DOMAIN-SUFFIX,bungie.com
+DOMAIN-SUFFIX,callofduty.com
+DOMAIN-SUFFIX,destinythegame.com
+DOMAIN-SUFFIX,hi-rez.com
+DOMAIN-SUFFIX,smitegame.com
+DOMAIN-SUFFIX,paladins.com
+DOMAIN-SUFFIX,riotgames.com
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,lolesports.com
+DOMAIN-SUFFIX,valorado.com
+# 方舟/生存类
+DOMAIN-SUFFIX,survivetheark.com
+DOMAIN-SUFFIX,playark.com
+# 独立平台
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,itch.io
+DOMAIN-SUFFIX,indiegala.com
