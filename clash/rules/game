@@ -1,0 +1,18 @@
+# Dota 2 专用分流规则
+# 涵盖：游戏登录、对战服务器、GC（游戏协调器）、语音、SDR 中继
+
+rules:
+  # --- Dota 2 / Valve 游戏域名 ---
+  - DOMAIN-SUFFIX,valve.net,游戏节点
+  - DOMAIN-SUFFIX,valvesoftware.com,游戏节点
+  - DOMAIN-SUFFIX,steamgames.com,游戏节点
+  - DOMAIN-SUFFIX,dota2.wmsj.cn,DIRECT         # 国服专线，直连
+
+  # --- Valve 游戏服务器 IP 段（SDR 中继 + 专用服务器）---
+  - IP-CIDR,155.133.224.0/19,游戏节点,no-resolve
+  - IP-CIDR,162.254.192.0/21,游戏节点,no-resolve
+  - IP-CIDR,208.78.164.0/22,游戏节点,no-resolve
+  - IP-CIDR,185.25.180.0/22,游戏节点,no-resolve
+
+  # --- 其余流量直连 ---
+  - MATCH,DIRECT
